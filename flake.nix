@@ -8,10 +8,10 @@
 
   outputs = { self, nixpkgs, ... }@inputs: {
     nixosConfigurations = {
-      "nixos-laptop" = nixpkgs.lib.nixosSystem {
+      "dell-inspiron-15" = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
         modules = [
-          ./configuration.nix
+          ./hosts/dell-inspiron-15/configuration.nix
         ];
       };
     };
