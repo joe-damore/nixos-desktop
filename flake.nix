@@ -7,11 +7,13 @@
   };
 
   outputs = { self, nixpkgs, ... }@inputs: {
-    "nixos-laptop" = nixpkgs.lib.nixosSystem {
-      system = "x86_64-linux";
-      modules = [
-        ./configuration.nix
-      ];
+    nixosConfigurations = {
+      "nixos-laptop" = nixpkgs.lib.nixosSystem {
+        system = "x86_64-linux";
+        modules = [
+          ./configuration.nix
+        ];
+      };
     };
   };
 
