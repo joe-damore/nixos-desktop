@@ -2,7 +2,7 @@
   description = "Joe's NixOS Desktop";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-23.05";
     nixpkgs-unstable.url = "github:NixOS/nixpkgs/nixos-unstable";
   };
 
