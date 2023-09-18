@@ -16,7 +16,7 @@
   boot.loader.efi.efiSysMountPoint = "/boot/efi";
 
   # Networking.
-  networking.hostName = "nixos";
+  networking.hostName = "nixos-laptop";
   # networking.wireless.enable = true;
   networking.networkmanager.enable = true;
 
