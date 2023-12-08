@@ -81,6 +81,10 @@
   # Hyprland configuration. #
   # ----------------------- #
   home.file.".config/hypr/hyprland.conf".source = ./dotfiles/hyprland/hyprland.conf;
+  programs.waybar = {
+    enable = true;
+    package = pkgs.waybar;
+  }
 
   # Do not touch.
   home.stateVersion = "23.11";
