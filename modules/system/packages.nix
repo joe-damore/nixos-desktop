@@ -11,8 +11,12 @@
     kitty
     neofetch
     zip
-    zsh
   ];
+
+  # ZSH.
+  programs.zsh = {
+    enable = true;
+  };
 
   # Neovim.
   programs.neovim = {
