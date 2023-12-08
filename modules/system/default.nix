@@ -1,7 +1,7 @@
 # Shared system configuration.
 # TODO Consider splitting this into multiple modules.
 
-{ config, pkgs, outputs, ... }:
+{ config, pkgs, ... }:
 {
   imports = [
     ./fonts.nix
@@ -52,9 +52,6 @@
   # -------------- #
   # Miscellaneous. #
   # -------------- #
-
-  # Expose Nixpkgs unstable under `pkgs.unstable`.
-  nixpkgs.overlays = [outputs.unstable-packages];
 
   # Enable OpenGL.
   hardware.opengl.enable = true;

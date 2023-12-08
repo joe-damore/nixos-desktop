@@ -17,6 +17,9 @@
       ./hardware-configuration.nix
     ];
 
+  # Expose Nixpkgs unstable under `pkgs.unstable`.
+  nixpkgs.overlays = import ../../overlays;
+
   # System hostname.
   networking.hostName = "joes-framework-nixos";
 
