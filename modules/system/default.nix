@@ -4,6 +4,7 @@
 { config, pkgs, ... }:
 {
   imports = [
+    ./audio.nix
     ./fonts.nix
     ./locale.nix
     ./packages.nix
