@@ -4,6 +4,12 @@
   home.username = "joe";
   home.homeDirectory = "/home/joe";
 
+  # ------------------ #
+  # Unstable packages. #
+  # ------------------ #
+  nixpkgs.overlays = [ outputs.overlays.unstable-packages ];
+
+
   # ------------------------------- #
   # Sublime Text and Sublime Merge. #
   # ------------------------------- #
@@ -14,7 +20,7 @@
 
   programs.vscode = {
     enable = true;
-    package = pkgs.vscode.fhs;
+    package = pkgs.unstable.vscode.fhs;
   };
 
   # ------------------ #
