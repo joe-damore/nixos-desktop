@@ -85,9 +85,9 @@
     enable = true;
     package = pkgs.waybar;
   };
-  programs.anyrun = {
-    enable = true;
-  };
+  home.packages = with pkgs; [
+    wofi
+  ];
 
   # Do not touch.
   home.stateVersion = "23.11";
