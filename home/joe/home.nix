@@ -22,7 +22,7 @@
     #   name = "Flat-Remix-GTK-Grey-Darkest";
     # };
     iconTheme = {
-      package = pkgs.libsForQt5.papirus-icon-theme;
+      package = pkgs.papirus-icon-theme;
       name = "Papirus-Light";
     };
     font = {
