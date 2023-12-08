@@ -7,8 +7,8 @@
     # As a result, only fonts listed below will be installed on the system.
     enableDefaultPackages = false;
 
-    # Fonts that should be installed.
-    fonts = with pkgs; [
+    # Font packages that should be installed.
+    packages = with pkgs; [
       # Microsoft TrueType core fonts for the web.
       # (Includes Arial, Verdana, Georgia, etc.)
       corefonts
