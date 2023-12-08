@@ -17,11 +17,15 @@
       ./hardware-configuration.nix
     ];
 
-  # nixpkgs = {
-  #   overlays = [
-  #     outputs.overlays.unstable-packages
-  #   ];
-  # };
+  nixpkgs = {
+    overlays = [
+      outputs.overlays.unstable-packages
+    ];
+  };
+
+  environment.systemPackages = with pkgs; [
+    unstable.vscode
+  ];
 
   # System hostname.
   networking.hostName = "joes-framework-nixos";
