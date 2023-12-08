@@ -48,6 +48,11 @@
 
   home.file.".zshrc".source = ./dotfiles/zsh/.zshrc;
 
+  # -------------------- #
+  # Kitty configuration. #
+  # -------------------- #
+  home.file.".config/kitty/kitty.conf".source = ./dotfiles/kitty/kitty.conf;
+
   # ------------------ #
   # Git configuration. #
   # ------------------ #
