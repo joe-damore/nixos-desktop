@@ -16,13 +16,6 @@
           ./hosts/framework-13/configuration.nix
         ];
       };
-      # "dell-inspiron-15" = nixpkgs.lib.nixosSystem {
-      #   system = "x86_64-linux";
-      #   specialArgs = { inherit inputs; };
-      #   modules = [
-      #     ./hosts/dell-inspiron-15/configuration.nix
-      #   ];
-      # };
     };
   };
 
