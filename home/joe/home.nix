@@ -8,8 +8,8 @@
   # Sublime Text and Sublime Merge. #
   # ------------------------------- #
   home.packages = with pkgs; [
-    sublime4
-    # sublime-merge
+    # sublime4
+    sublime-merge
   ];
 
   # ------------------ #
