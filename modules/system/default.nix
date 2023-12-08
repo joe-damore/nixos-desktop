@@ -51,6 +51,18 @@
   # Miscellaneous. #
   # -------------- #
 
+
+  # Allow Sublime Text 4 to be installed.
+  # WARNING: This may break when NixOS 24.05 is released due to OpenSSL 1.1 removal.
+  # See also:
+  # - https://github.com/sublimehq/sublime_text/issues/5984
+  # - https://github.com/NixOS/nixpkgs/issues/269713
+  # - https://discourse.nixos.org/t/stubborn-openssl-is-insecure-error-in-nixos-23-05/29555
+  # - https://github.com/NixOS/nixpkgs/issues/239615
+  nixpkgs.config.permittedInsecurePackages = [
+    "sublime4"
+  ];
+
   # Enable Flakes and Nix Command
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
