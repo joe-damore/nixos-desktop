@@ -16,12 +16,13 @@
   home.packages = with pkgs; [
     sublime4
     sublime-merge
+    unstable.vscode
   ];
 
-  programs.vscode = {
-    enable = true;
-    package = pkgs.unstable.vscode.fhs;
-  };
+  # programs.vscode = {
+  #   enable = true;
+  #   package = pkgs.unstable.vscode.fhs;
+  # };
 
   # ------------------ #
   # GTK configuration. #
