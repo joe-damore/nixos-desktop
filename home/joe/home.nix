@@ -85,6 +85,9 @@
     enable = true;
     package = pkgs.waybar;
   };
+  programs.anyrun = {
+    enable = true;
+  };
 
   # Do not touch.
   home.stateVersion = "23.11";
