@@ -16,13 +16,14 @@
 
   gtk = {
     enable = true;
-    theme = {
-      package = pkgs.flat-remix-gtk;
-      name = "Flat-Remix-GTK-Grey-Darkest";
-    };
+    # TODO Specify a theme.
+    # theme = {
+    #   package = pkgs.flat-remix-gtk;
+    #   name = "Flat-Remix-GTK-Grey-Darkest";
+    # };
     iconTheme = {
-      package = pkgs.libsForQt5.breeze-icons;
-      name = "breeze-dark";
+      package = pkgs.libsForQt5.papirus-icon-theme;
+      name = "Papirus-Light";
     };
     font = {
       name = "Sans";
