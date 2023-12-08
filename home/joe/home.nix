@@ -10,8 +10,12 @@
   home.packages = with pkgs; [
     sublime4
     sublime-merge
-    vscode
   ];
+
+  programs.vscode = {
+    enable = true;
+    package = pkgs.vscode.fhs;
+  };
 
   # ------------------ #
   # GTK configuration. #
