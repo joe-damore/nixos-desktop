@@ -10,7 +10,7 @@
     hyprland.url = "github:hyprwm/Hyprland";
 
     # Home Manager.
-    home-manager.url = "github:nix-community/home-manager";
+    home-manager.url = "github:nix-community/home-manager/release-23.11";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
   };
 
