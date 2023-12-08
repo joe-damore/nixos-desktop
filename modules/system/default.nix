@@ -4,6 +4,8 @@
 { config, pkgs, ... }:
 {
   imports = [
+    ../scripts/rebuild-system
+
     ./fonts.nix
   ];
 
