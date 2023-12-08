@@ -2,7 +2,7 @@
 # your system.  Help is available in the configuration.nix(5) man page
 # and in the NixOS manual (accessible by running ‘nixos-help’).
 
-{ config, pkgs, ... }:
+{ inputs, outputs, config, pkgs, ... }:
 
 {
   imports =
@@ -17,8 +17,11 @@
       ./hardware-configuration.nix
     ];
 
-  # Expose Nixpkgs unstable under `pkgs.unstable`.
-  nixpkgs.overlays = [import ../../overlays];
+  nixpkgs = {
+    overlays = [
+      outputs.overlays.unstable-packages
+    ];
+  };
 
   # System hostname.
   networking.hostName = "joes-framework-nixos";
