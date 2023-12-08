@@ -1,7 +1,7 @@
 # Shared system configuration.
 # TODO Consider splitting this into multiple modules.
 
-{ config, pkgs, outputs ... }:
+{ config, pkgs, outputs, ... }:
 {
   imports = [
     ./fonts.nix
