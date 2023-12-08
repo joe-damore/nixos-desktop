@@ -68,6 +68,7 @@
   # -------------------- #
   home.file.".config/kitty/kitty.conf".source = ./dotfiles/kitty/kitty.conf;
   home.file.".config/kitty/current_theme.conf".source = ./dotfiles/kitty/current_theme.conf;
+  home.file.".config/kitty/keybinds.conf".source = ./dotfiles/kitty/keybinds.conf;
 
   # ------------------ #
   # Git configuration. #
