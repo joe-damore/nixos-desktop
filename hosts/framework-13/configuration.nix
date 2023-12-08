@@ -27,7 +27,7 @@
     NIXOS_REBUILD_PATH = "/etc/nixos";
   };
 
-  settings = {
+  nix.settings = {
     substituters = [
       "https://hyprland.cachix.org"
       "https://cache.nixos.org/"
