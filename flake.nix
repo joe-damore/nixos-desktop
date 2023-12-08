@@ -17,6 +17,7 @@
   outputs = { self, nixpkgs, home-manager, ... } @ inputs: let
   inherit (self) outputs;
   in {
+    overlays = import ./overlays {inherit inputs;};
     nixosConfigurations = {
       "framework-13" = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
