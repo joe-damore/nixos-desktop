@@ -11,7 +11,7 @@
     packages = with pkgs; [
       # Microsoft fonts.
       corefonts
-      vista-fonts
+      vistafonts
 
       # Noto
       noto-fonts
