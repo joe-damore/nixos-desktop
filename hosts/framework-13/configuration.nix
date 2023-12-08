@@ -10,6 +10,9 @@
       # Shared system configuration.
       ../../modules/system
 
+      # Desktop environment.
+      ../../modules/desktop/hyprland
+
       # Include the results of the hardware scan.
       ./hardware-configuration.nix
     ];
