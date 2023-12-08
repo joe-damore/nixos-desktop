@@ -4,6 +4,13 @@
   home.username = "joe";
   home.homeDirectory = "/home/joe";
 
+  # ------------- #
+  # Sublime Text. #
+  # ------------- #
+  home.packages = with pkgs; [
+    sublime4
+  ];
+
   # ------------------ #
   # GTK configuration. #
   # ------------------ #
