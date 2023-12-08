@@ -4,11 +4,12 @@
   home.username = "joe";
   home.homeDirectory = "/home/joe";
 
-  # ------------- #
-  # Sublime Text. #
-  # ------------- #
+  # ------------------------------- #
+  # Sublime Text and Sublime Merge. #
+  # ------------------------------- #
   home.packages = with pkgs; [
     sublime4
+    sublime-merge
   ];
 
   # ------------------ #
