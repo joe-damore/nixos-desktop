@@ -66,6 +66,7 @@
   # Kitty configuration. #
   # -------------------- #
   home.file.".config/kitty/kitty.conf".source = ./dotfiles/kitty/kitty.conf;
+  home.file.".config/kitty/current_theme.conf".source = ./dotfiles/kitty/current_theme.conf;
 
   # ------------------ #
   # Git configuration. #
