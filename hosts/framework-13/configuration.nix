@@ -67,6 +67,12 @@
     warn-dirty = false
   '';
 
+  environment.variables = {
+    # Used by the rebuild script to identify NixOS config location and flake info.
+    NIXOS_REBUILD_CONFIG = "framework-13";
+    NIXOS_REBUILD_PATH = "/etc/nixos";
+  };
+
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
