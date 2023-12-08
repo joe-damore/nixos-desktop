@@ -9,9 +9,9 @@
 
     # Font packages that should be installed.
     packages = with pkgs; [
-      # Microsoft TrueType core fonts for the web.
-      # (Includes Arial, Verdana, Georgia, etc.)
+      # Microsoft fonts.
       corefonts
+      vista-fonts
 
       # Noto
       noto-fonts
