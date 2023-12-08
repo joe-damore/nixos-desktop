@@ -8,8 +8,6 @@
     ./locale.nix
     ./packages.nix
     ./scripts.nix
-
-    ../../overlays
   ];
 
   # -------------- #
