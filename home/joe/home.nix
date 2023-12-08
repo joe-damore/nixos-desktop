@@ -18,6 +18,7 @@
   home.packages = with pkgs; [
     sublime4
     sublime-merge
+    wofi
     # unstable.vscode
   ];
 
@@ -85,9 +86,6 @@
     enable = true;
     package = pkgs.waybar;
   };
-  home.packages = with pkgs; [
-    wofi
-  ];
 
   # Do not touch.
   home.stateVersion = "23.11";
