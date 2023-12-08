@@ -54,6 +54,8 @@
   # Enable OpenGL.
   hardware.opengl.enable = true;
 
+  # Enable Flatpak.
+  services.flatpak.enable = true;
 
   # Allow OpenSSL 1.1.1 to be installed to enable Sublime Text 4 installation.
   #
