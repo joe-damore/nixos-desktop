@@ -62,6 +62,11 @@
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
+  # Disable Git warning when a file has been modified.
+  nix.extraOptions = ''
+    warn-dirty = false
+  '';
+
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
