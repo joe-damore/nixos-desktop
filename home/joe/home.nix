@@ -22,6 +22,11 @@
     userEmail = "joe@joedamore.me";
   };
 
+  # ----------------------- #
+  # Hyprland configuration. #
+  # ----------------------- #
+  home.file.".config/hypr/hyprland.conf".source = ./dotfiles/hyprland/hyprland.conf;
+
   # Do not touch.
   home.stateVersion = "23.11";
   programs.home-manager.enable = true;
