@@ -20,6 +20,7 @@
     description = "Joe D'Amore";
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [];
+    shell = pkgs.zsh;
   };
 
   # ------------------------ #

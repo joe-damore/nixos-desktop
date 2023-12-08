@@ -8,9 +8,10 @@
     wget
     git
     curl
+    kitty
     neofetch
     zip
-    kitty
+    zsh
   ];
 
   # Neovim.
