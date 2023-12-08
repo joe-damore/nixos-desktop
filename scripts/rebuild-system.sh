@@ -6,5 +6,5 @@ fi
 
 cd "$NIXOS_REBUILD_PATH"
 git pull
-ls
+echo "nixos-rebuild switch --flake \"$NIXOS_REBUILD_PATH#$NIXOS_REBUILD_CONFIG\""
 #nixos-rebuild switch --flake "$NIXOS_REBUILD_PATH#$NIXOS_REBUILD_CONFIG"
