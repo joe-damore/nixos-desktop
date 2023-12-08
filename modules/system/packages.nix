@@ -11,6 +11,7 @@
     kitty
     neofetch
     zip
+    glxinfo
   ];
 
   # ZSH.
