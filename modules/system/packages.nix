@@ -22,6 +22,6 @@
   # Firefox.
   programs.firefox = {
     enable = true;
-    package = pkgs.latest.firefox-bin;
+    package = pkgs.firefox-bin;
   };
 }
