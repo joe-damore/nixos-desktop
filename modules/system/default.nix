@@ -5,45 +5,9 @@
 {
   imports = [
     ./fonts.nix
+    ./locale.nix
+    ./packages.nix
     ./scripts.nix
-  ];
-
-  # ---------------------------------- #
-  # Timezone and internationalization. #
-  # ---------------------------------- #
-
-  # Time Zone.
-  time.timeZone = "America/New_York";
-
-  # Locale / Internationalization.
-  i18n.defaultLocale = "en_US.UTF-8";
-  i18n.extraLocaleSettings = {
-    LC_ADDRESS = "en_US.UTF-8";
-    LC_IDENTIFICATION = "en_US.UTF-8";
-    LC_MEASUREMENT = "en_US.UTF-8";
-    LC_MONETARY = "en_US.UTF-8";
-    LC_NAME = "en_US.UTF-8";
-    LC_NUMERIC = "en_US.UTF-8";
-    LC_PAPER = "en_US.UTF-8";
-    LC_TELEPHONE = "en_US.UTF-8";
-    LC_TIME = "en_US.UTF-8";
-  };
-
-  # Keymapping.
-  services.xserver = {
-    layout = "us";
-    xkbVariant = "";
-  };
-
-  # ---------------- #
-  # System Packages. #
-  # ---------------- #
-  environment.systemPackages = with pkgs; [
-    vim
-    wget
-    git
-    curl
-    neofetch
   ];
 
   # -------------- #
