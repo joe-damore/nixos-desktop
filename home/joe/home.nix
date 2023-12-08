@@ -84,7 +84,7 @@
   programs.waybar = {
     enable = true;
     package = pkgs.waybar;
-  }
+  };
 
   # Do not touch.
   home.stateVersion = "23.11";
