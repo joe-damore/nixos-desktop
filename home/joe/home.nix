@@ -18,7 +18,7 @@
   home.packages = with pkgs; [
     sublime4
     sublime-merge
-    # unstable.vscode
+    unstable.vscode
   ];
 
   # programs.vscode = {
