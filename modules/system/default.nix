@@ -51,6 +51,9 @@
   # Miscellaneous. #
   # -------------- #
 
+  # Enable OpenGL.
+  hardware.opengl.enable = true;
+
 
   # Allow OpenSSL 1.1.1 to be installed to enable Sublime Text 4 installation.
   #
