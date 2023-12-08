@@ -63,9 +63,9 @@
   # - https://github.com/NixOS/nixpkgs/issues/269713
   # - https://discourse.nixos.org/t/stubborn-openssl-is-insecure-error-in-nixos-23-05/29555
   # - https://github.com/NixOS/nixpkgs/issues/239615
-  # nixpkgs.config.permittedInsecurePackages = [
-  #   "openssl-1.1.1w"
-  # ];
+  nixpkgs.config.permittedInsecurePackages = [
+    "openssl-1.1.1w"
+  ];
 
   # Enable Flakes and Nix Command
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
