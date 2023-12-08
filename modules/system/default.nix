@@ -40,6 +40,18 @@
     neofetch
   ];
 
+  # -------------- #
+  # User Accounts. #
+  # -------------- #
+
+  # Joe D'Amore
+  users.users.joe = {
+    isNormalUser = true;
+    description = "Joe D'Amore";
+    extraGroups = [ "networkmanager" "wheel" ];
+    packages = with pkgs; [];
+  };
+
   # ------------------------ #
   # Networking and Security. #
   # ------------------------ #
