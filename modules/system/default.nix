@@ -7,6 +7,7 @@
     ../scripts/rebuild-system/default.nix
 
     ./fonts.nix
+    ./scripts.nix
   ];
 
   # ---------------------------------- #
