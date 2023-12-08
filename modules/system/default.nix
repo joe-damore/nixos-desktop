@@ -1,7 +1,12 @@
 # Shared system configuration.
+# TODO Consider splitting this into multiple modules.
 
 { config, pkgs, ... }:
 {
+  imports = [
+    ./fonts.nix
+  ];
+
   # ---------------------------------- #
   # Timezone and internationalization. #
   # ---------------------------------- #
