@@ -14,7 +14,8 @@
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
   };
 
-  outputs = { self, nixpkgs, home-manager, ... }@inputs: {
+  outputs = { self, nixpkgs, nixpkgs-unstable, home-manager, ... }@inputs: {
+    overlays = import ./overlays {inherit inputs;};
     nixosConfigurations = {
       "framework-13" = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
