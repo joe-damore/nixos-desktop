@@ -4,12 +4,6 @@
   home.username = "joe";
   home.homeDirectory = "/home/joe";
 
-  # ------------------ #
-  # Unstable packages. #
-  # ------------------ #
-  nixpkgs.overlays = [ outputs.overlays.unstable-packages ];
-
-
   # ------------------------------- #
   # Sublime Text and Sublime Merge. #
   # ------------------------------- #
