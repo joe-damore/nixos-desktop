@@ -6,6 +6,7 @@
   imports = [
     ./audio.nix
     ./fonts.nix
+    ./gaming.nix
     ./locale.nix
     ./packages.nix
     ./scripts.nix
@@ -54,6 +55,7 @@
 
   # Enable OpenGL.
   hardware.opengl.enable = true;
+  hardware.opengl.driSupport32Bit = true;
 
   # Enable Flatpak.
   services.flatpak.enable = true;
