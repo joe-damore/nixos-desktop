@@ -8,6 +8,10 @@
   #     ];
   #   };
   # };
+  environment.systemPackages = with pkgs; [
+    wlsunset
+    nixpkgs-wayland.swww
+  ];
 
   programs.hyprland = {
     enable = true;

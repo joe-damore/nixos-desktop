@@ -17,8 +17,6 @@
     sublime-merge
     wofi
     cinnamon.nemo
-    wlsunset
-    inputs.nixpkgs-wayland.packages.x86_64-linux.sww
     # unstable.vscode
   ];
 
