@@ -12,14 +12,13 @@
   #   ];
   # };
 
-  # ------------------------------- #
-  # Sublime Text and Sublime Merge. #
-  # ------------------------------- #
   home.packages = with pkgs; [
     sublime4
     sublime-merge
     wofi
     cinnamon.nemo
+    wlsunset
+    inputs.nixpkgs-wayland.packages.x86_64-linux.sww
     # unstable.vscode
   ];
 
