@@ -7,7 +7,7 @@
     nixpkgs-unstable.url = "github:NixOS/nixpkgs/nixos-unstable";
 
     # Wayland tools and utilities.
-    nixpkgs-wayland.url = "github:nix-community/nixpkgs-wayland";
+    #nixpkgs-wayland.url = "github:nix-community/nixpkgs-wayland";
     #nixpkgs-wayland.inputs.nixpkgs.follows = "nixpkgs";
 
     # Hyprland.

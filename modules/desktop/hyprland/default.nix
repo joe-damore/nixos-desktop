@@ -10,7 +10,7 @@
   # };
   environment.systemPackages = with pkgs; [
     wlsunset
-    nix-wayland.swww
+    # nix-wayland.swww
   ];
 
   programs.hyprland = {
