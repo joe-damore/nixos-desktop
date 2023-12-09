@@ -14,6 +14,8 @@
     glxinfo
     rustup
     gcc
+    bzip2
+    xz
   ];
 
   # ZSH.
