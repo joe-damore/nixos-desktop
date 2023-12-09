@@ -52,10 +52,6 @@
     };
   };
 
-  programs.gnome-disks = {
-    enable = true;
-  };
-
   # ------------------ #
   # ZSH configuration. #
   # ------------------ #
