@@ -68,6 +68,12 @@
   home.file.".config/kitty/current_theme.conf".source = ./dotfiles/kitty/current_theme.conf;
   home.file.".config/kitty/keybinds.conf".source = ./dotfiles/kitty/keybinds.conf;
 
+  # --------------------- #
+  # Waybar configuration. #
+  # --------------------- #
+  home.file.".config/waybar/config".source = ./dotfiles/waybar/config.json;
+  home.file.".config/waybar/style.css".source = ./dotfiles/waybar/style.css;
+
   # ------------------ #
   # Git configuration. #
   # ------------------ #
