@@ -8,7 +8,7 @@
 
     # Wayland tools and utilities.
     nixpkgs-wayland.url = "github:nix-community/nixpkgs-wayland";
-    nixpkgs-wayland.inputs.nixpkgs.follows = "nixpkgs";
+    #nixpkgs-wayland.inputs.nixpkgs.follows = "nixpkgs";
 
     # Hyprland.
     hyprland.url = "github:hyprwm/Hyprland";

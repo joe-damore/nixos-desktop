@@ -1,6 +1,6 @@
 {inputs, ...}: {
 
-  nixpkgs-wayland = final: _prev: {
+  wayland-packages = final: _prev: {
     nix-wayland = import inputs.nixpkgs-wayland {
       system = final.system;
       config.allowUnfree = true;

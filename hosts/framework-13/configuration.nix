@@ -20,7 +20,7 @@
   nixpkgs = {
     overlays = [
       outputs.overlays.unstable-packages
-      outputs.overlays.nixpkgs-wayland
+      outputs.overlays.wayland-packages
     ];
   };
 
