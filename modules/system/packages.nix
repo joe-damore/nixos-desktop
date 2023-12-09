@@ -12,6 +12,8 @@
     neofetch
     zip
     glxinfo
+    rustup
+    gcc
   ];
 
   # ZSH.
