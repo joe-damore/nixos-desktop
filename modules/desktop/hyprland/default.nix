@@ -9,7 +9,6 @@
   #   };
   # };
   environment.systemPackages = with pkgs; [
-    dunst
     hyprland-protocols
     hyprpicker
     # hyprland-share-picker
@@ -22,6 +21,10 @@
     swww
     # nix-wayland.swww
   ];
+
+  services.dunst = {
+    enable = true;
+  };
 
   security.polkit.enable = true;
 
