@@ -10,8 +10,8 @@
   # };
   environment.systemPackages = with pkgs; [
     hyprland-protocols
-    hyprpickr
-    hyprland-share-picker
+    hyprpicker
+    # hyprland-share-picker
     xdg-utils
     xdg-desktop-portal
     xdg-desktop-portal-gtk
