@@ -20,6 +20,8 @@
     # nix-wayland.swww
   ];
 
+  security.polkit.enable = true;
+
   xdg = {
     autostart.enable = true;
     portal = {
