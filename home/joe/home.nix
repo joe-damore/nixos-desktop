@@ -18,6 +18,7 @@
     wofi
     cinnamon.nemo
     lapce
+    volta
     # unstable.vscode
   ];
 
