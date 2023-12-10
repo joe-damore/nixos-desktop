@@ -9,8 +9,9 @@
 
     # Font packages that should be installed.
     packages = with pkgs; [
-      # Font Awesome (Needed for Waybar)
+      # Icon fonts.
       font-awesome
+      nerdfonts
 
       # Microsoft fonts.
       corefonts
