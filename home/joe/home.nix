@@ -40,10 +40,10 @@
   gtk = {
     enable = true;
     # TODO Specify a theme.
-    # theme = {
-    #   package = pkgs.flat-remix-gtk;
-    #   name = "Flat-Remix-GTK-Grey-Darkest";
-    # };
+    theme = {
+      package = pkgs.arc-theme;
+      name = "Arc-Darker";
+    };
     iconTheme = {
       package = pkgs.papirus-icon-theme;
       name = "Papirus-Light";
