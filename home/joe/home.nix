@@ -13,6 +13,7 @@
   # };
 
   home.packages = with pkgs; [
+    aseprite
     sublime4
     sublime-merge
     evince
