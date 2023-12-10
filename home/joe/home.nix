@@ -15,6 +15,7 @@
   home.packages = with pkgs; [
     monitor
     aseprite
+    spotify
     sublime4
     sublime-merge
     evince
