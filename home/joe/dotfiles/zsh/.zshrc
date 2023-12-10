@@ -2,9 +2,6 @@
 HISTSIZE="10000"
 SAVEHIST="10000"
 
-# Add Volta
-export PATH=/home/joe/.volta/bin:$PATH
-
 setopt HIST_FCNTL_LOCK
 setopt HIST_IGNORE_DUPS
 unsetopt HIST_IGNORE_ALL_DUPS
