@@ -44,6 +44,8 @@
     package = inputs.hyprland.packages.${pkgs.system}.hyprland;
   };
 
+  service.devmon.enable = true;
+
   environment.sessionVariables = {
     XDG_SESSION_TYPE = "wayland";
     XDG_CURRENT_DESKTOP = "Hyprland";
