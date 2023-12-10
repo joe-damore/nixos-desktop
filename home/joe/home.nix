@@ -13,6 +13,7 @@
   # };
 
   home.packages = with pkgs; [
+    monitor
     aseprite
     sublime4
     sublime-merge
@@ -23,6 +24,8 @@
     gnome.file-roller
     gnome.eog
     gnome.gnome-font-viewer
+    gnome.gnome-calendar
+    gnome.gnome-calculator
     # unstable.vscode
   ];
 
