@@ -17,6 +17,8 @@
     xdg-desktop-portal-gtk
     xdg-desktop-portal-hyprland
     wlsunset
+    waypaper
+    swww
     # nix-wayland.swww
   ];
 
