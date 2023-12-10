@@ -27,6 +27,7 @@
     gnome.gnome-font-viewer
     gnome.gnome-calendar
     gnome.gnome-calculator
+    vimPlugins.lazy-nvim
     # unstable.vscode
   ];
 
