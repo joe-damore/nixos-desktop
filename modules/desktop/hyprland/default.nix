@@ -19,12 +19,9 @@
     wlsunset
     waypaper
     swww
+    dunst
     # nix-wayland.swww
   ];
-
-  services.dunst = {
-    enable = true;
-  };
 
   security.polkit.enable = true;
 
