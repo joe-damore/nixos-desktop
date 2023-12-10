@@ -9,6 +9,7 @@
   #   };
   # };
   environment.systemPackages = with pkgs; [
+    dunst
     hyprland-protocols
     hyprpicker
     # hyprland-share-picker
