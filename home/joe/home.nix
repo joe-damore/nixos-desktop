@@ -17,7 +17,7 @@
     sublime-merge
     wofi
     cinnamon.nemo
-    lapce
+    nodenv
     # unstable.vscode
   ];
 
