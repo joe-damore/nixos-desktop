@@ -101,6 +101,11 @@
     package = pkgs.waybar;
   };
 
+  # ---------------------- #
+  # Nixpkgs configuration. #
+  # ---------------------- #
+  home.file.".config/nixpkgs/config.nix".source = ./dotfiles/nixpkgs/config.nix;
+
   # Do not touch.
   home.stateVersion = "23.11";
   programs.home-manager.enable = true;
