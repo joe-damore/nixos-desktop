@@ -15,10 +15,13 @@
   home.packages = with pkgs; [
     sublime4
     sublime-merge
+    evince
     wofi
     cinnamon.nemo-with-extensions
     gnome.gnome-disk-utility
     gnome.file-roller
+    gnome.eog
+    gnome.gnome-font-viewer
     # unstable.vscode
   ];
 
