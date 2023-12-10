@@ -47,7 +47,7 @@
       name = "Papirus-Light";
     };
     font = {
-      name = "Sans";
+      name = "Noto Sans";
       size = 12;
     };
   };
