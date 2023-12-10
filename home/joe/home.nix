@@ -17,6 +17,8 @@
     sublime-merge
     wofi
     cinnamon.nemo-with-extensions
+    gnome.gnome-disk-utility
+    gnome.file-roller
     # unstable.vscode
   ];
 
