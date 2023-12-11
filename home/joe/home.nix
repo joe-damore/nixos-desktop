@@ -95,6 +95,11 @@
     userEmail = "joe@joedamore.me";
   };
 
+  # --------------------------- #
+  # Sublime Text configuration. #
+  # --------------------------- #
+  home.file.".config/sublime-text/Packages/User/Preferences.sublime-settings".source = ./dotfiles/sublime-text/Preferences.sublime-settings;
+
   # ----------------------- #
   # Hyprland configuration. #
   # ----------------------- #
