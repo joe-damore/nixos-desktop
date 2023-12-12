@@ -28,6 +28,7 @@
     gnome.gnome-calendar
     gnome.gnome-calculator
     keepassxc
+    tailscale
     vimPlugins.lazy-nvim
     polkit_gnome
     # unstable.vscode
