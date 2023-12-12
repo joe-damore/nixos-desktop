@@ -5,4 +5,4 @@ if [ "$EUID" -ne 0 ]
 fi
 
 cd "$NIXOS_REBUILD_PATH"
-nixos-rebuild switch --flake "$NIXOS_REBUILD_PATH#$NIXOS_REBUILD_CONFIG"
+nix flake update
