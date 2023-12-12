@@ -27,6 +27,7 @@
     gnome.gnome-font-viewer
     gnome.gnome-calendar
     gnome.gnome-calculator
+    keepassxc
     vimPlugins.lazy-nvim
     polkit_gnome
     # unstable.vscode
