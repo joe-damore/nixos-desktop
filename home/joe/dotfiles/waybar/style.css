@@ -1,6 +1,7 @@
 * {
     /* `otf-font-awesome` is required to be installed for icons */
     font-family: FontAwesome, 'Inter', 'Helvetica Neue LT', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 600;
     font-size: 13px;
 }
 
@@ -109,7 +110,8 @@ button:hover {
 }
 
 #clock {
-    background-color: #64727D;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 #battery {
