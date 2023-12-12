@@ -17,12 +17,31 @@
       corefonts
       vistafonts
 
+      # Liberation Fonts
+      liberation_ttf
+
+      # Helvetica Neue
+      helvetica-neue-lt-std
+
+      # Robot
+      roboto
+      roboto-slab
+      roboto-mono
+      roboto-serif
+
+      # Misc
+      aileron
+      inter
+      open-sans
+      clarity-city
+
       # Noto
       noto-fonts
       noto-fonts-emoji
 
-      # Fira Code
+      # Coding fonts
       fira-code
+      monaspace
     ];
 
     # Default system fonts.
