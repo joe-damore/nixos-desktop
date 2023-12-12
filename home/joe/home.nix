@@ -107,6 +107,7 @@
   # ----------------------- #
   home.file.".config/hypr/hyprland.conf".source = ./dotfiles/hyprland/hyprland.conf;
   home.file.".config/ironbar/config.yaml".source = ./dotfiles/ironbar/config.yaml;
+  home.file.".config/ironbar/style.css".source = ./dotfiles/ironbar/style.css;
 
   # ---------------------- #
   # Nixpkgs configuration. #
