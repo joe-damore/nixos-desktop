@@ -17,6 +17,7 @@
     xdg-desktop-portal-gtk
     xdg-desktop-portal-hyprland
     wlsunset
+    ironbar
     waypaper
     swww
     dunst

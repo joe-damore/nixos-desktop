@@ -106,10 +106,7 @@
   # Hyprland configuration. #
   # ----------------------- #
   home.file.".config/hypr/hyprland.conf".source = ./dotfiles/hyprland/hyprland.conf;
-  programs.waybar = {
-    enable = true;
-    package = pkgs.waybar;
-  };
+  home.file.".config/ironbar/config.yaml".source = ./dotfiles/ironbar/config.yaml;
 
   # ---------------------- #
   # Nixpkgs configuration. #
