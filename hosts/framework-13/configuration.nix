@@ -34,7 +34,7 @@
   environment.sessionVariables = {
     # Used by rebuild script to specify correct config.
     NIXOS_REBUILD_CONFIG = "framework-13";
-    NIXOS_REBUILD_PATH = "/home/joe/Nix";
+    NIXOS_REBUILD_PATH = "/etc/nixos";
   };
 
   nix.settings = {
