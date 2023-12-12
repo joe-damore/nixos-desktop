@@ -43,6 +43,9 @@
   # Enable SSH.
   services.openssh.enable = true;
 
+  # Enable Tailscsale.
+  services.tailscale.enable = true;
+
   # ----- #
   # Boot. #
   # ----- #
