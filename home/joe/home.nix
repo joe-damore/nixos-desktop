@@ -100,7 +100,6 @@
   # Sublime Text configuration. #
   # --------------------------- #
   home.file.".config/sublime-text/Packages/User/Preferences.sublime-settings".source = ./dotfiles/sublime-text/Preferences.sublime-settings;
-  home.file.".config/sublime-text/Packages/User/Preferences (Linux).sublime-settings".source = ./dotfiles/sublime-text/Preferences_Linux.sublime-settings;
 
   # ----------------------- #
   # Hyprland configuration. #
